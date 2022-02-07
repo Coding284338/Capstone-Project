@@ -1,0 +1,21 @@
+1. Create a basic layout in the app.js
+2. make a folder called "screens" with 3 files in it
+3. 1st file is home.js, 2nd is front.js, and 3rd is back.js
+4. import and create stylesheet in all these files, and give styling, as well as adding a text component and a view component inside the return()
+5. first do marginTop : 15 and marginRight : 15, and then add color : "red', fontweight : "bold"
+6. Create a BottomTabNavigator, so you can switch between tabs.
+7. Adjust it to make it look good.
+8. Add a input box in the front, so you can put your name in.
+9. There will be a title on the top, saying "Home page"
+10. The input box will be put in yellow, with a outline in black.
+11. Create a memory to store everything with super() and constructor(){} function.
+12. There will be a picture below, with a sign saying "ENTER NAME"
+13. There will also be a button below the input  Wbox, saying "ENTER", import touchableopacity for this to work.
+14. When you click on it, you will go to the front screen, here it will tell you to put your last name. Follow the exact steps in the homescreen, but instead of "ENTER NAME" in the input box and the sign. It should say "ENTER LAST NAME"
+15. There you should add a "ENTER" button yet again, and it should be in blue. 
+16. When you click on this button, it will take you to the backscreen, which has a green background
+17. Same steps as the homescreen and front screen, but this time it should say "ENTER MIDDLE NAME" and there should be a button saying enter, or none. The none button should be red in the stylesheet, and the enter should be in cyan. 
+18. If you click enter, it will take you back to the homescreen. The process will begin right over again.
+19. The "none" button which means to say no middle name, will make a popup saying "survey error" then it will take you back to the homescreen.
+20. After this, add back buttons in every single screen. So you can navigate back to the previous screen. These buttons should be in black.
+21. Save the code, and then it is finished.
